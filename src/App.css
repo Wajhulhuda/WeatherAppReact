@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  border: 2px solid grey;
+  
+}
+.header{
+  background-color: #4472C4;
+  margin: 0;
+  padding: 0;
+}
+.table th{
+  background-color: #4472C4;
+}
+.head,button,th{
+  color: #ffffff;
+}
+.btn-get{
+  background-color: #4472C4;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+table, th, td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  padding: .5rem;
+}
+.table{
+  margin:0px auto;
+  border: 2px solid black;
+}
+.table table{
+  width: 100%;
+}
+.city-list{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  }
+  td,th{
+    text-align: left;
+  }
+  .left{
+    border-right: 2px solid black;
+  }
+  .search{
+    text-align: right;
+    padding: .5rem;
+  }
+  .search-btn{
+    background-color: #4472C4;
+    border: none;
+   padding: .2rem 1rem;
+   border-radius: .5rem;
+  }
+  .des th{
+    background-color: #4472C4;
+  }
+  .des table{
+    width: 100%;
+  }
+  .active{
+    border:2px solid green
+  }
+  .back{
+    background-color: yellow;
+  }
+  .no-data{
+    text-align: center;
+    padding: 2rem 4rem;
+    margin: 1rem auto;
+    font-size: 2rem;
+  }
